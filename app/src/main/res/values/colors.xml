@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Glassmorphism base palette -->
+    <color name="primary">#00BCD4</color>
+    <color name="primary_dark">#0097A7</color>
+    <color name="primary_light">#B2EBF2</color>
+    <color name="accent">#FF7043</color>
+    <color name="accent_dark">#E64A19</color>
+    <color name="error">#FF5252</color>
+
+    <!-- Dark backgrounds -->
+    <color name="bg">#0D1B2A</color>
+    <color name="bg_surface">#1B2838</color>
+    <color name="status_bar">#0A1628</color>
+    <color name="toolbar_bg">#151F2E</color>
+
+    <!-- Glass effects -->
+    <color name="glass_card">#33FFFFFF</color>
+    <color name="glass_border">#44FFFFFF</color>
+    <color name="glass_input_bg">#22FFFFFF</color>
+    <color name="card_bg">#CC1E2D3D</color>
+
+    <!-- Text colors for dark theme -->
+    <color name="text_primary">#F0F0F0</color>
+    <color name="text_secondary">#99AABB</color>
+    <color name="text_hint">#AABBCC</color>
+    <color name="divider">#22FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Category colors (vibrant for dark bg) -->
+    <color name="category_housing">#7C4DFF</color>
+    <color name="category_utilities">#FFB74D</color>
+    <color name="category_transportation">#4FC3F7</color>
+    <color name="category_groceries">#81C784</color>
+    <color name="category_dining">#FF8A80</color>
+    <color name="category_healthcare">#4DD0E1</color>
+    <color name="category_entertainment">#CE93D8</color>
+    <color name="category_personal_care">#F48FB1</color>
+    <color name="category_shopping">#FFAB91</color>
+    <color name="category_savings">#80CBC4</color>
+    <color name="category_travel">#BCAAA4</color>
+</resources>
