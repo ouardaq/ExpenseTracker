@@ -1,4 +1,4 @@
-Expense Tracker — Android Final Project (Base)
+Expense Tracker — Android App
 ================================================
 
 How to run
@@ -21,24 +21,6 @@ What is included in this base
 - ProgressDialog during login
 - Session persistence via SharedPreferences
 
-Project requirements covered
-----------------------------
-[x] Login                     -> LoginActivity
-[x] Record addition           -> AddEditActivity + ExpenseDao.insert()
-[x] Record list               -> RecordsFragment (RecyclerView)
-[x] Conditional search        -> SearchFragment + ExpenseDao.search()
-[x] Modification              -> AddEditActivity (passes EXTRA_ID)
-[x] Deletion                  -> RecordsFragment long-press
-[x] SQLite database           -> db/DBHelper.java
-[x] ListView                  -> SearchFragment
-[x] RecyclerView              -> RecordsFragment
-[x] AlertDialog               -> register, delete, logout, clear-all, about
-[x] ProgressDialog            -> LoginActivity
-[x] Menu                      -> res/menu/main_menu.xml
-[x] ActionBar                 -> default app bar in MainActivity
-[x] ViewPager + Fragment      -> MainActivity + 3 Fragments
-[x] Pull-to-refresh           -> RecordsFragment (SwipeRefreshLayout)
-
 Folder layout
 -------------
 app/src/main/java/com/example/expensetracker/
@@ -49,22 +31,4 @@ app/src/main/java/com/example/expensetracker/
     adapters/    RecyclerView + ListView adapters
   util/      PasswordUtil, SessionManager, Categories
 
-What to do next (optional polish for higher grades)
----------------------------------------------------
-- Add input validation feedback inline (TextInputLayout)
-- Add a settings screen (currency symbol, theme color)
-- Localize strings (e.g. Chinese translations in values-zh)
 
-Design document
----------------
-DesignDocument.docx in the project root covers:
-- Project overview and requirements coverage table
-- UI design ideas (palette, layout, screen walkthrough)
-- Functional design logic (database schema, flows, search query)
-- Code technology implementation (project structure, key technologies)
-- Testing matrix
-- Course learning summary
-
-Note: MPAndroidChart is pulled from JitPack, which is configured in
-settings.gradle. The first Gradle sync needs an internet connection
-to download it.
